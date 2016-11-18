@@ -35,7 +35,7 @@ body{
     width: 100%;    
     letter-spacing: -1.35em;    
     background: orange;
-    text-align: center;
+    text-align: justify;
 }
 
 .header{
@@ -67,6 +67,34 @@ body{
         padding: 0.3rem;
     }
 
+.carousel-inner{
+    width: 100%;    
+}
+.carousel-inner .item {
+    max-height: 820px;
+}
+    .carousel-inner .item img{
+       width: 100%;
+        /*background-size: cover;*/     
+        height: 100%;
+    }
+    
+    .carousel-inner .carousel-caption{
+        bottom: 100px;
+    }
+
+    .carousel-inner .carousel-caption h3{
+        font-size: 3em;
+    }
+
+    .carousel-inner .carousel-caption p{
+        font-size: 1.8em;
+        margin-top: -21px
+    }
+    
+
+    
+
 /*Media queries movil*/
 @media screen and (max-width: 456px){
     body{
@@ -74,6 +102,7 @@ body{
     }
     .box{
         width: 100%;
+        background: red;
     }
 }
 
